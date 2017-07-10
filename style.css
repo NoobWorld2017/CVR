@@ -1,0 +1,258 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333333;
+    height:100%;
+}
+
+#container {
+    background-color:#121212;
+    height: 80px;
+    width:100%;
+}
+#header-container {
+    height: 100%;
+    width:60%;
+    margin:0 auto;
+}
+
+#header-title {
+    margin: 0;
+    padding:0;
+    color:#e4e4e4;
+    position:relative;
+    top:15px;
+    font-size: 40px;
+    float:left;
+}
+
+#header-container p {
+    margin:2px 0 0 0;
+    padding:0;
+    color: #e4e4e4;
+}
+.clear {
+    clear:both;
+}
+
+#logo {
+    float:left;
+    margin: 20px 0 0 10px;
+    width:35px;
+}
+
+#header-container ul{
+    float:right;
+    margin:0;
+}
+
+.main-section {
+    width:60%;
+    margin:0 auto;
+    border-bottom: 1px #484848 dashed;
+}
+
+.menu {
+    float:left;
+    color:#e4e4e4;
+    display: block;
+    padding:5px 10px;
+    position:relative;
+    top:-3px;
+    border-radius: 3px;
+}
+
+.row-section {
+    margin-top: 50px;
+    width: 33%;
+    float:left;
+    background-color: #333333;
+    border-right: 1px #484848 solid;
+}
+
+.profil-pics {
+    width:100px;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+.row-section h3 {
+    margin:10px;
+    text-align: center;
+    color:#e4e4e4;
+}
+
+.row-section p {
+    margin: 15px;
+    color: #e4e4e4;
+}
+
+#about-container {
+    width: 60%;
+    margin: 35px auto;
+}
+
+#about-section h2 {
+    text-align: center;
+    color:#e4e4e4;
+}
+
+#about-section p {
+    margin:10px 15px;
+    color: #e4e4e4;
+}
+
+#about-section p a{
+    text-decoration: none;
+}
+
+#footer-container {
+    height: 40px;
+    margin-top: 30px;
+    background-color: black;
+    bottom:100%;
+    width:100%;
+}
+
+#footer-content{
+    width:60%;
+    margin:0 auto;
+
+}
+
+#copyright {
+    color:#e4e4e4;
+    margin: 20px 0 0 0;
+    float:left;
+}
+
+#contact-container {
+    width:60%;
+    height:39em;
+    margin: 45px auto;
+    background-color: #333333;
+    border-radius: 15%;
+    border:1px #484848 solid;
+}
+
+#contact-container h1 {
+    text-align: center;
+    margin-top:2em;
+    color:#e4e4e4;
+}
+
+#contact-form {
+    margin-left: 22%;
+}
+
+#contact-form p {
+    margin:0;
+    padding:0;
+}
+
+#contact-form label {
+    font-size:25px;
+    color:#e4e4e4;
+}
+
+#contact-form #name {
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding:5px 5px;
+    width:73%;
+}
+
+#contact-form #email {
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding:5px 5px;
+    width:73%;
+}
+
+#contact-form #message {
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+#submit-button {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+#release-container {
+
+    width:60%;
+    margin:25px auto;
+
+}
+
+#release-container #premium{
+    text-align: center;
+    color:#e4e4e4;
+    position: relative;
+    top:25px;
+}
+
+#music-container {
+    width:97%;
+    height:180px;
+    border-radius: 15px;
+    background-color:#333333;
+    border:1px #484848 solid;
+    margin:0 auto;
+    margin-top:30px;
+    padding: 5px;
+}
+
+.albums {
+    width: 24%;
+    float:left;
+    height: 100%;
+    border-right:1px #484848 solid;
+    margin-left:4px;
+}
+
+.album-img {
+    width:140px;
+    margin-left:27px;
+}
+
+#music-container .albums p {
+    text-align: center;
+    color:#e4e4e4;
+}
+
+#free-release-container {
+    width: 60%;
+    margin: 25px auto;
+    margin-bottom:7em;
+   
+}
+
+#free-release-container #free {
+    text-align: center;
+    color:#e4e4e4;
+    position: relative;
+    top:25px;
+}
+
+#free-music-container {
+    width:97%;
+    height:180px;
+    border-radius: 15px;
+    background-color:#333333;
+    border:1px #484848 solid;
+    margin:0 auto;
+    margin-top:30px;
+    padding: 5px;
+}
+
+#free-music-container .albums p {
+    text-align: center;
+    color:#e4e4e4;
+}
+
+#second-row-section-one {
+    margin-top:0;
+}
